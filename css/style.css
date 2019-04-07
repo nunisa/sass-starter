@@ -7,6 +7,16 @@ body {
   justify-content: center;
   align-items: center; }
   .sass-starter img {
-    height: 90%; }
+    animation: sass-dance infinite 1s linear;
+    height: 60vmin;
+    pointer-events: none; }
   .sass-starter__text {
     color: #f3f3f3; }
+
+@keyframes sass-dance {
+  0% {
+    transform: scaleX(1); }
+  50% {
+    transform: scaleX(1.25); }
+  100% {
+    transform: scaleX(1); } }

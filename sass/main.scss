@@ -9,10 +9,26 @@ body {
     align-items: center;
 
     img {
-        height: 90%;
+        animation: sass-dance infinite 1s linear;
+        height: 60vmin;
+        pointer-events: none;
     }
 
     &__text {
         color: #f3f3f3;
+    }
+}
+
+@keyframes sass-dance {
+    0% {
+        transform: scaleX(1);
+    }
+
+    50% {
+        transform: scaleX(1.25);
+    }
+
+    100% {
+        transform: scaleX(1);
     }
 }
