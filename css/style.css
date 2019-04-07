@@ -1,2 +1,12 @@
-.sass-starter__h1 {
-  color: orangered; }
+body {
+  background-color: #206969; }
+
+.sass-starter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .sass-starter img {
+    height: 90%; }
+  .sass-starter__text {
+    color: #f3f3f3; }

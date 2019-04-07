@@ -1,5 +1,18 @@
+body {
+    background-color: #206969;
+}
+
 .sass-starter {
-    &__h1 {
-        color: orangered;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 90%;
+    }
+
+    &__text {
+        color: #f3f3f3;
     }
 }
