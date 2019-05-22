@@ -1,8 +1,17 @@
 # sass-starter #
 SASS starter boilerplate
 
-### Usage ###
+### Get it ###
 `git clone https://github.com/nunisa/sass-starter.git`
+
+### Usage ###
+After cloning the repo, do the following
+1. Install dependencies
+
+    `npm i`
+2. Run development server and initial CSS bundling
+
+    `npm start`
 
 ### Issues ###
 For any issue, raise it in [issue tracker](https://github.com/nunisa/sass-starter/issues).
